@@ -1,7 +1,7 @@
 __global__ void kernel()
 {
 	long long i = 0;
-	while(i < 10000000000000000000)
+	while(i < 10000000000)
 	{
 		++i;
 	}
